@@ -3,7 +3,7 @@
 ## Purpose
 
 크몽 판매 연습 1번: 가상의 동네 카페 "느린오후 커피" 5페이지 소개 사이트. 소상공인 요청의 기본형을 익히고
-제작 시간을 측정한다. (기획 근거: `../planning/docs/`)
+제작 시간을 측정한다. (기획 근거: `planning/docs/`)
 
 ## Scope
 
@@ -17,5 +17,5 @@
 
 ## Open questions
 
-- 기획 원페이저(승인 대기) → `../planning/docs/prd/practice-01-cafe.md`
+- 기획 원페이저(Approved) → `planning/docs/prd/practice-01-cafe.md`
 - 이메일 발송 방식·배포 대상 → `docs/todo/261001-1005-01-stack.md`

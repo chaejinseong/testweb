@@ -3,7 +3,7 @@
 ## Top-level layout
 
 ```
-cafe-site/
+kmong-practice/
 ├─ AGENTS.md, SPEC.md, docs/   작업 규칙·계획·문서
 ├─ frontend/                   React + Vite (포트 5173)
 │  ├─ vite.config.js           /api → backend 프록시

@@ -1,7 +1,7 @@
 # SPEC — 느린오후 커피 사이트 (연습 1번)
 
 - Status: 승인 대기
-- 근거: `../planning/docs/prd/practice-01-cafe.md` (Approved)
+- 근거: `planning/docs/prd/practice-01-cafe.md` (Approved)
 - 이 파일은 작업이 끝나 report로 정리되면 삭제한다 (`AGENTS.md` 규칙)
 
 ## 1. 만들 것
@@ -21,7 +21,7 @@
 ## 2. 폴더 구조
 
 ```
-cafe-site/
+kmong-practice/
 ├─ AGENTS.md                작업 규칙 (템플릿)
 ├─ SPEC.md                  이 계획서 (완료 후 삭제)
 ├─ docs/                    작업 문서 (템플릿: specs, todo, reports)

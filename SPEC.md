@@ -87,7 +87,7 @@ kmong-practice/
    - 파일: https://www.figma.com/design/bRAWl9wGTyqfdfpf3YNcrB
    - 코드로 옮길 때 색·간격·글자 크기는 피그마 토큰 이름 그대로 CSS 변수로 쓴다 (예: `--color-accent`, `--space-24`)
 1. 프로젝트 생성 + 의존성 설치 → `02-specs.md` Commands 채우기 ✅ (15:37–15:38, 빌드·테스트·서버 확인 완료)
-2. 공통 레이아웃: Header·Footer, 5개 빈 페이지와 라우팅
+2. 공통 레이아웃: Header·Footer, 5개 빈 페이지와 라우팅 ✅ (2026-10-02 14:22–14:27, 토큰은 임시값)
 3. 데이터 JSON 작성 (가상 메뉴·소식·가게 정보)
 4. 페이지 채우기: 홈 → 메뉴 → 가게 이야기 → 소식
 5. 문의하기 화면 + 서버 (개발용 모드로 먼저)

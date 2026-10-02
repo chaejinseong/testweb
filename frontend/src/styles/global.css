@@ -1,0 +1,134 @@
+/* 피그마 토큰 이름을 그대로 쓴다.
+   --color-accent와 글꼴만 피그마 확인값. 나머지는 임시값 — 6단계에서 피그마 값으로 교체 (docs/todo 참고) */
+:root {
+  --color-accent: #b4532a;
+  --color-text: #111111;
+  --color-text-muted: #6b6b6b;
+  --color-bg: #ffffff;
+  --color-surface: #f5f5f3;
+  --color-border: #e5e5e5;
+
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-40: 40px;
+
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-20: 20px;
+  --font-size-32: 32px;
+
+  --content-max: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: var(--font-size-16);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 0 var(--space-16);
+}
+
+main {
+  min-height: 60vh;
+  padding-block: var(--space-40);
+}
+
+/* Header */
+.header {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.logo {
+  font-size: var(--font-size-20);
+  font-weight: 700;
+}
+
+.menu-button {
+  font-size: var(--font-size-20);
+  padding: var(--space-8);
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+.nav {
+  display: none;
+  flex-direction: column;
+  padding-bottom: var(--space-16);
+}
+
+.nav.open {
+  display: flex;
+}
+
+.nav a {
+  padding: var(--space-8) 0;
+}
+
+.nav a.active {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-24);
+    padding: 0;
+  }
+
+  .container {
+    padding: 0 var(--space-24);
+  }
+}
+
+/* Footer */
+.footer {
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-14);
+  padding-block: var(--space-24);
+}
+
+.footer p {
+  margin: 0 0 var(--space-8);
+}
+
+.footer .logo {
+  color: var(--color-text);
+}

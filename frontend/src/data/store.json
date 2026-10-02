@@ -1,0 +1,15 @@
+{
+  "name": "느린오후 커피",
+  "tagline": "천천히 내린 커피 한 잔, 오후를 느리게.",
+  "address": "서울시 예시구 예시로 12, 1층",
+  "phone": "02-000-0000",
+  "instagram": "https://www.instagram.com/",
+  "instagramHandle": "@slow_afternoon_coffee",
+  "mapUrl": "https://map.naver.com/",
+  "hours": [
+    { "day": "월요일", "time": "휴무" },
+    { "day": "화–금요일", "time": "10:00 – 21:00" },
+    { "day": "토요일", "time": "11:00 – 22:00" },
+    { "day": "일요일", "time": "11:00 – 20:00" }
+  ]
+}

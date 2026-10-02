@@ -2,30 +2,94 @@
   {
     "category": "커피",
     "items": [
-      { "name": "아메리카노", "price": 4500, "description": "오늘의 원두로 내린 기본 커피", "featured": true },
-      { "name": "카페라떼", "price": 5000, "description": "고소한 우유와 에스프레소" },
-      { "name": "느린오후 핸드드립", "price": 6500, "description": "주문 후 한 잔씩 천천히 내리는 대표 커피", "featured": true },
-      { "name": "플랫화이트", "price": 5500, "description": "진한 에스프레소에 얇은 우유 거품" },
-      { "name": "아인슈페너", "price": 6000, "description": "차가운 커피 위에 달콤한 크림" }
+      {
+        "name": "아메리카노",
+        "price": 4500,
+        "description": "오늘의 원두로 내린 기본 커피",
+        "featured": true,
+        "image": "/images/menu-americano.jpg"
+      },
+      {
+        "name": "카페라떼",
+        "price": 5000,
+        "description": "고소한 우유와 에스프레소"
+      },
+      {
+        "name": "느린오후 핸드드립",
+        "price": 6500,
+        "description": "주문 후 한 잔씩 천천히 내리는 대표 커피",
+        "featured": true,
+        "image": "/images/menu-handdrip.jpg"
+      },
+      {
+        "name": "플랫화이트",
+        "price": 5500,
+        "description": "진한 에스프레소에 얇은 우유 거품"
+      },
+      {
+        "name": "아인슈페너",
+        "price": 6000,
+        "description": "차가운 커피 위에 달콤한 크림"
+      }
     ]
   },
   {
     "category": "음료",
     "items": [
-      { "name": "말차라떼", "price": 5800, "description": "쌉싸름한 말차와 우유" },
-      { "name": "자몽에이드", "price": 6000, "description": "직접 담근 자몽청으로 만든 에이드", "featured": true },
-      { "name": "밀크티", "price": 5500, "description": "홍차를 오래 우려 만든 밀크티" },
-      { "name": "캐모마일", "price": 5000, "description": "카페인 없는 따뜻한 허브차" },
-      { "name": "초콜릿 라떼", "price": 5500, "description": "진한 초콜릿과 우유" }
+      {
+        "name": "말차라떼",
+        "price": 5800,
+        "description": "쌉싸름한 말차와 우유"
+      },
+      {
+        "name": "자몽에이드",
+        "price": 6000,
+        "description": "직접 담근 자몽청으로 만든 에이드",
+        "featured": true,
+        "image": "/images/menu-grapefruit-ade.jpg"
+      },
+      {
+        "name": "밀크티",
+        "price": 5500,
+        "description": "홍차를 오래 우려 만든 밀크티"
+      },
+      {
+        "name": "캐모마일",
+        "price": 5000,
+        "description": "카페인 없는 따뜻한 허브차"
+      },
+      {
+        "name": "초콜릿 라떼",
+        "price": 5500,
+        "description": "진한 초콜릿과 우유"
+      }
     ]
   },
   {
     "category": "디저트",
     "items": [
-      { "name": "바스크 치즈케이크", "price": 6500, "description": "겉은 진하게 굽고 속은 부드러운 치즈케이크", "featured": true },
-      { "name": "버터 스콘", "price": 3800, "description": "매일 아침 굽는 스콘, 잼 포함" },
-      { "name": "휘낭시에", "price": 3000, "description": "태운 버터 향의 작은 구움과자" },
-      { "name": "당근 케이크", "price": 6000, "description": "크림치즈 프로스팅을 올린 당근 케이크" }
+      {
+        "name": "바스크 치즈케이크",
+        "price": 6500,
+        "description": "겉은 진하게 굽고 속은 부드러운 치즈케이크",
+        "featured": true,
+        "image": "/images/menu-cheesecake.jpg"
+      },
+      {
+        "name": "버터 스콘",
+        "price": 3800,
+        "description": "매일 아침 굽는 스콘, 잼 포함"
+      },
+      {
+        "name": "휘낭시에",
+        "price": 3000,
+        "description": "태운 버터 향의 작은 구움과자"
+      },
+      {
+        "name": "당근 케이크",
+        "price": 6000,
+        "description": "크림치즈 프로스팅을 올린 당근 케이크"
+      }
     ]
   }
 ]

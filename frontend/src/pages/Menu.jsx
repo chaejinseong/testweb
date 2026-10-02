@@ -1,4 +1,13 @@
-// 4·5단계에서 내용을 채운다.
+import menu from "../data/menu.json";
+import MenuList from "../components/MenuList.jsx";
+
 export default function Menu() {
-  return <h1>메뉴</h1>;
+  return (
+    <>
+      <h1>메뉴</h1>
+      {menu.map((c) => (
+        <MenuList key={c.category} category={c.category} items={c.items} />
+      ))}
+    </>
+  );
 }

@@ -1,4 +1,5 @@
 import express from "express";
+import { contactRouter } from "./routes/contact.js";
 
 // Express 앱 설정. 서버 시작(index.js)과 분리해서 테스트에서 재사용한다.
 export function createApp() {
@@ -9,6 +10,8 @@ export function createApp() {
   app.get("/api/health", (req, res) => {
     res.json({ ok: true });
   });
+
+  app.use("/api/contact", contactRouter);
 
   return app;
 }

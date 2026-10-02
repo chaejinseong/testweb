@@ -26,7 +26,7 @@ frontend와 backend는 각자 폴더에서 따로 실행한다.
 - Install: `cd frontend && npm install` / `cd backend && npm install`
 - Dev server: `cd backend && npm run dev` (포트 4000) + 다른 터미널에서 `cd frontend && npm run dev` (포트 5173, `/api`는 backend로 프록시)
 - Test (all): `cd backend && npm test`
-- Test (single file): `cd backend && node --test test/health.test.js`
+- Test (single file): `cd backend && node --test test/contact.test.js`
 - Build: `cd frontend && npm run build` (결과물 `frontend/dist/`)
 - Lint / typecheck: 없음 (린터 미설치 — 추가하려면 의존성 승인 필요)
 

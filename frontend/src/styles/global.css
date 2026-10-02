@@ -327,3 +327,115 @@ ul {
     margin: 0;
   }
 }
+
+/* 문의하기 */
+.contact-form {
+  display: grid;
+  gap: var(--space-16);
+  max-width: 560px;
+  margin-top: var(--space-24);
+}
+
+.contact-form > label,
+.contact-form legend {
+  display: grid;
+  gap: var(--space-8);
+  font-weight: 500;
+}
+
+.contact-form input:not([type="radio"], [type="checkbox"]),
+.contact-form textarea {
+  font: inherit;
+  font-weight: 400;
+  padding: 12px var(--space-16);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -1px;
+}
+
+.contact-form fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form legend {
+  padding: 0;
+  margin-bottom: var(--space-8);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+/* 라디오는 화면에서 숨기고 글자 칩으로 보여 준다 (키보드 선택은 그대로 됨) */
+.chip-option input {
+  position: absolute;
+  opacity: 0;
+}
+
+.chip-option span {
+  display: inline-block;
+  padding: var(--space-8) var(--space-16);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.chip-option input:checked + span {
+  background: var(--color-text);
+  border-color: var(--color-text);
+  color: var(--color-bg);
+}
+
+.chip-option input:focus-visible + span {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.contact-form .agree {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-8);
+  font-weight: 400;
+  font-size: var(--font-size-14);
+  color: var(--color-text-muted);
+}
+
+.agree input {
+  margin-top: 3px;
+}
+
+.field-error {
+  margin: calc(var(--space-8) * -1) 0 0;
+  color: #c0392b;
+  font-size: var(--font-size-14);
+}
+
+.button {
+  font: inherit;
+  font-weight: 500;
+  padding: 14px var(--space-24);
+  border: 0;
+  border-radius: 8px;
+  background: var(--color-accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.contact-done {
+  padding-block: var(--space-40);
+}
